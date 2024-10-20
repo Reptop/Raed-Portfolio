@@ -28,8 +28,8 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       href={href}
       scroll={false}
       p={2}
-      bg={active ? 'grassTeal' : undefined}
-      color={active ? '#202023' : inactiveColor}
+      bg={active ? 'green' : undefined}
+      color={active ? 'white' : inactiveColor}
       target={target}
       {...props}
     >
@@ -78,15 +78,22 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            Projects
           </LinkItem>
-          <LinkItem href="/wallpapers" path={path}>
-            Wallpapers
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
+
+
+          {
+            // <LinkItem href="/posts" path={path}>
+            // Gear
+            // </LinkItem>
+          }
+
+          {
+            // <LinkItem href="https://uses.craftz.dog/">
+            // Uses
+            // </LinkItem>
+          }
+
           <LinkItem
             target="_blank"
             href="https://github.com/craftzdog/craftzdog-homepage"
@@ -99,6 +106,7 @@ const Navbar = props => {
             <IoLogoGithub />
             Source
           </LinkItem>
+
         </Stack>
 
         <Box flex={1} align="right">
@@ -117,7 +125,7 @@ const Navbar = props => {
                   About
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
-                  Works
+                  Projects
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/wallpapers">
                   Wallpapers
@@ -126,7 +134,7 @@ const Navbar = props => {
                   Posts
                 </MenuItem>
                 <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
+                  Gear
                 </MenuItem>
                 <MenuItem
                   as={Link}
