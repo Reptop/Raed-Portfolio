@@ -85,6 +85,10 @@ const Work = () => (
         <Center>Some Pics :)</Center>
       </Heading>
 
+      <Box>
+        I don't have pics yet...
+      </Box>
+
       <WorkImage src="/images/works/gojo.jpg" alt="freeDBTagger" />
     </Container>
   </Layout >
