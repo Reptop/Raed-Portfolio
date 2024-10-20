@@ -119,7 +119,7 @@ const Home = () => (
 
         <BioSection>
           <BioYear>2023 to Present</BioYear>
-          Working as a TA for all undergraduate math classes :)
+          Working as a TA for all undergraduate math classes
         </BioSection>
 
 
