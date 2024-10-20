@@ -101,6 +101,11 @@ const Home = () => (
         </BioSection>
 
         <BioSection>
+          <BioYear>2021 to 2023</BioYear>
+          Worked as a coding tutor for kids at Code Ninjas.
+        </BioSection>
+
+        <BioSection>
           <BioYear>2022 to Present</BioYear>
           Pursuing a double Bachelor&apos;s Degree in Computer Science
           and Math at Oregon State University (OSU).
@@ -108,19 +113,15 @@ const Home = () => (
 
 
         <BioSection>
-          <BioYear>2023 to Present</BioYear>
-          Working as a TA for undergraduate math classes.
-        </BioSection>
-
-        <BioSection>
           <BioYear> 2023 to 2024</BioYear>
           Conducted linear algebra research with math faculty.
         </BioSection>
 
         <BioSection>
-          <BioYear>2021 to 2023</BioYear>
-          Worked as a coding tutor for kids at Code Ninjas.
+          <BioYear>2023 to Present</BioYear>
+          Working as a TA for all undergraduate math classes :)
         </BioSection>
+
 
       </Section>
       <Section delay={0.3}>
