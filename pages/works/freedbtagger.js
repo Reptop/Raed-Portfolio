@@ -14,7 +14,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="freeDBTagger">
+  <Layout title="Zool">
     <Container>
       <Title>
         Zool <Badge>2019-2022</Badge>
