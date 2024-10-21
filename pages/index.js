@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        I&apos;m college student studying CS & Math :O
+        I&apos;m college student studying CS & Math :)
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -52,8 +52,8 @@ const Home = () => (
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            w="100px"
-            h="100px"
+            w="125px"
+            h="125px"
             display="inline-block"
             borderRadius="full"
             overflow="hidden"
@@ -61,8 +61,8 @@ const Home = () => (
             <Image
               src="/images/raed2.jpg"
               alt="Profile image"
-              width="100"
-              height="100"
+              width="125"
+              height="125"
             />
           </Box>
         </Box>
@@ -74,8 +74,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Raed Kabir is a college student who likes to tinker and program in his free time.
-          He is currently in his third year of college. As such, he is studying hard for
-          practical interviews in hopes of finding a SWE internship :O.
+          He is currently in his third year of college. Hence, he is studying hard for
+          practical interviews in hopes of finding a SWE internship.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -106,27 +106,26 @@ const Home = () => (
         </BioSection>
 
         <BioSection>
-          <BioYear>2022 to Present</BioYear>
-          Pursuing a double Bachelor&apos;s Degree in Computer Science
-          and Math at Oregon State University (OSU).
-        </BioSection>
-
-
-        <BioSection>
           <BioYear> 2023 to 2024</BioYear>
           Conducted linear algebra research with math faculty.
         </BioSection>
 
         <BioSection>
+          <BioYear>2022 to Present</BioYear>
+          Pursuing a double Bachelor&apos;s Degree in Computer Science
+          and Math at Oregon State University (OSU).
+        </BioSection>
+
+        <BioSection>
           <BioYear>2023 to Present</BioYear>
-          Working as a TA for all undergraduate math classes
+          Working as a TA for undergraduate math classes
         </BioSection>
 
 
       </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Some things I like :O
+          Some things I like
         </Heading>
         <Paragraph>
           Super Mario Galaxy,{' '}
