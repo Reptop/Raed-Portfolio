@@ -142,7 +142,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          These are my socials (waow)
+          Socials
         </Heading>
         <List>
           <ListItem>
