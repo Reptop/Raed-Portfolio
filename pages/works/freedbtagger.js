@@ -84,7 +84,8 @@ const Work = () => (
       <Heading as="h4" fontSize={16} my={6}>
         <Center>Some Pics :)</Center>
       </Heading>
-      I don&apost have pics yet...
+
+      I don&apos;t have pics yet...
 
       <WorkImage src="/images/works/gojo.jpg" alt="freeDBTagger" />
     </Container>
