@@ -7,7 +7,7 @@ import {
   AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -22,24 +22,27 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://www.inkdrop.app/">
-            https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/MacOS/Linux</span>
+          <span>Windows, Linux, MacOS</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
           <span>C</span>
         </ListItem>
+        <ListItem>
+          <Meta>Source</Meta>
+          <Link href="https://github.com/Reptop/Address-book-/tree/main">
+            v1.1.0 <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Last update</Meta>
+          <span>2024/04/25</span>
+        </ListItem>
       </List>
 
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
-
+      {
+        /*
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="https://www.youtube.com/embed/wJwUjuKr_54"
@@ -49,6 +52,9 @@ const Work = () => (
           allowFullScreen
         ></iframe>
       </AspectRatio>
+        */
+      }
+
     </Container>
   </Layout>
 )
