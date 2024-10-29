@@ -4,7 +4,7 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio
+  // AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'
@@ -31,8 +31,8 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/Reptop/Address-book-/tree/main">
-            v1.1.0 <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/Reptop/RKShell">
+            v1.0 <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
