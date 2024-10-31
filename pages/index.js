@@ -53,7 +53,7 @@ const Home = () => (
             borderWidth={2}
             borderStyle="solid"
             w="125px"
-            h="125px"
+            h="125p"
             display="inline-block"
             borderRadius="full"
             overflow="hidden"
@@ -121,7 +121,7 @@ const Home = () => (
         <BioSection>
           <BioYear>2022 to Present</BioYear>
           Pursuing a double Bachelor&apos;s Degree in Computer Science
-          and Math at Oregon State University (OSU).
+          & Math at Oregon State University.
         </BioSection>
 
         <BioSection>
