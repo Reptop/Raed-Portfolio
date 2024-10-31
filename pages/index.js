@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        I&apos;m college student studying CS & Math :)
+        I&apos;m a student studying CS & Math :)
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -73,9 +73,17 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Raed Kabir is a college student who likes to tinker and program in his free time.
-          He is currently in his third year of college. Hence, he is studying hard for
-          practical interviews in hopes of finding a SWE internship.
+          Hello, my name is Raed Kabir; I&apos;m deeply passionate about computer
+          networks and the intersection of mathematics and programming.
+          In my free time, I enjoy analyzing TCP requests and studying
+          differential equations, as these areas fuel my curiosity and
+          drive for problem-solving. I also find immense fulfillment in
+          teaching programming and math, as sharing knowledge enhances
+          my own understanding and helps others grow. Currently, I&apos;m
+          applying for internships to gain hands-on industry
+          experience and further develop my technical skills.
+
+
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -157,7 +165,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/kabirraed?igsh=NDBybnBhamQ0Nmtv&utm_source=qr" target="_blank">
+            <Link href="https://www.instagram.com/kabirraed/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="green"

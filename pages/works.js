@@ -30,6 +30,13 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
+
+        <Section>
+          <WorkGridItem id="meniki" title="Placeholder" thumbnail={thumbGojo}>
+            This is a placeholder!
+          </WorkGridItem>
+        </Section>
+
         {
           /*
           <Section>

@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="RK Address Book">
     <Container>
       <Title>
-        RK Address Book <Badge>2019-2020</Badge>
+        RK Address Book <Badge>2020-2020</Badge>
       </Title>
       <Center my={6}>
         <Image src="/images/works/pengu.png" width={250} height={250} alt="icon" />
