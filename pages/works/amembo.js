@@ -71,7 +71,7 @@ const Work = () => (
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Some Pics :O</Center>
+        <Center>Some Pictures...</Center>
       </Heading>
 
       <SimpleGrid columns={2} gap={2}>
@@ -81,7 +81,6 @@ const Work = () => (
       <WorkImage src="/images/works/UI.png" alt="amembo" />
 
       <Center>
-        <h4>No homies...</h4>
         <WorkImage src="/images/works/contact_notif.png" alt="amembo" />
       </Center>
 
