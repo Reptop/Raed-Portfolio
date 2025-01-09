@@ -73,15 +73,14 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hello, my name is Raed Kabir; I&apos;m deeply passionate about computer
-          networks and the intersection of mathematics and programming.
-          In my free time, I enjoy analyzing TCP requests and studying
-          differential equations, as these areas fuel my curiosity and
-          drive for problem-solving. I also find immense fulfillment in
-          teaching programming and math, as sharing knowledge enhances
-          my own understanding and helps others grow. Currently, I&apos;m
+          Hello, my name is Raed Kabir; I am passionate about computer
+          networks and the intersection of math and programming.
+          I enjoy analyzing TCP requests and studying
+          differential equations because I find it fun.
+          Also, I enjoy teaching programming and math, as sharing knowledge enhances
+          my own understanding and helps others grow. I am currently
           applying for internships to gain hands-on industry
-          experience and further develop my technical skills.
+          experience and further develop my technical skills :)
 
 
         </Paragraph>
