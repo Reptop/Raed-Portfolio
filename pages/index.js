@@ -10,6 +10,7 @@ import {
   ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
+
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
@@ -21,9 +22,15 @@ import thumbYouTube from '../public/images/links/lorenz.png'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
 
+import VoxelDog from '../components/voxel-dog'
+
+
 const Home = () => (
   <Layout>
     <Container>
+
+      <VoxelDog />
+
       <Box
         borderRadius="lg"
         mb={6}
