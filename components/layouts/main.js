@@ -24,7 +24,6 @@ const Main = ({ children, router }) => {
         <meta property="og:type" content="website" />
 
         {/* Twitter Card Meta Tags (for better Twitter/X previews) */}
-        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Raed Kabir | Portfolio" />
         <meta name="twitter:description" content="Explore my portfolio and projects!" />
         <meta name="twitter:image" content="https://reptop.dev/preview.png" />
