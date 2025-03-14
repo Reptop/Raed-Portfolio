@@ -4,7 +4,8 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio
+  AspectRatio,
+  Spacer
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -15,61 +16,46 @@ const Work = () => (
   <Layout title="Margelo">
     <Container>
       <Title>
-        Margelo <Badge>2022</Badge>
+        TellTail <Badge>2025</Badge>
       </Title>
       <P>
-        The corporate website for the elite app development and contracting
-        agency based in Vienna, Austria.
-      </P>
-      <P>
-        <Link href="https://twitter.com/mrousavy" target="_blank">
-          Marc Rousavy <ExternalLinkIcon mx="2px" />
-        </Link>
-        , the founder of the agency, is my friend from the React Native
-        community. I coded the design they&apos;ve sent me, which consists of
-        parallax effects inspired by Apple. I&apos;ve published a video showing
-        the process of building the website as a tutorial on YouTube.
+        For my software engineering class, we were tasked with making a term project with a group of people.
+        Initially, we were all unsure on project ideas until I pitched an app that can detect
+        pet breeds based on an image. To my suprise, my group agreed on the idea! I am so happy to
+        have ended up working on this project with such a talented group of people.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <span>
-            <Link href="https://margelo.io/" target="_blank">
-              https://margelo.io/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://tail-tell.vercel.app/" target="_blank">
+              TellTail <ExternalLinkIcon mx="2px" />
             </Link>
           </span>
         </ListItem>
+
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Next.js / TypeScript / Vercel / Formspree / Fathom / Embla Carousel
+            Vite / TypeScript / Vercel / PyTorch / TailwindCSS
           </span>
         </ListItem>
+
         <ListItem>
-          <Meta>Video</Meta>
-          <Link href="https://www.youtube.com/watch?v=GznmPACXBlY">
-            How I built a software agency website with Next.js + Tailwind CSS
-            (in nature) <ExternalLinkIcon mx="2px" />
-          </Link>
+          <Meta>Source</Meta>
+          <span>
+            <Link href="https://github.com/HackerManOSU/TellTail" target="_blank">
+              v1.0 <ExternalLinkIcon mx="2px" />
+            </Link>
+          </span>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/margelo_eyecatch.png" alt="Website" />
-
-      <AspectRatio maxW="640px" ratio={1.7} my={4}>
-        <iframe
-          src="https://www.youtube.com/embed/GznmPACXBlY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </AspectRatio>
-
-      <WorkImage src="/images/works/margelo_01.png" alt="Margelo" />
-      <WorkImage src="/images/works/margelo_02.png" alt="Margelo" />
-      <WorkImage src="/images/works/margelo_03.png" alt="Margelo" />
+      <WorkImage src="/images/works/telltail_logo.png" alt="Website" />
+      <WorkImage src="/images/works/telltail_ragdoll.png" alt="Margelo" />
+      <WorkImage src="/images/works/telltail_home.png" alt="Margelo" />
+      <WorkImage src="/images/works/telltail_choice.png" alt="Margelo" />
     </Container>
   </Layout>
 )

@@ -7,10 +7,11 @@ import { WorkGridItem } from '../components/grid-item'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 // import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
 // import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-// import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
+import thumbTellTail from '../public/images/works/telltail_logo.png'
 // import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 // import thumbStyly from '../public/images/works/styly_eyecatch.png'
 import thumbGojo from '../public/images/works/gojo.jpg'
+import thumbShell from '../public/images/works/shell_thumb.png'
 // import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbZool from '../public/images/works/zool.png'
 // import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
@@ -25,7 +26,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="RKShell" thumbnail={thumbGojo}>
+          <WorkGridItem id="inkdrop" title="RKShell" thumbnail={thumbShell}>
             My custom shell with unique features for optimized productivity.
           </WorkGridItem>
         </Section>
@@ -80,18 +81,20 @@ const Works = () => (
         </Heading>
       </Section>
 
-      {
-        /*
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
+          <WorkGridItem id="margelo" thumbnail={thumbTellTail} title="TellTail">
+            An ML based website that can detect a dog/cat&apos;s breed based on any image.
           </WorkGridItem>
         </Section>
+
+      </SimpleGrid>
+
+      {
+        /*
         <Section delay={0.3}>
           <WorkGridItem
-
+ 
             thumbnail={thumbModeTokyo}
             title="mode.tokyo"
           >
