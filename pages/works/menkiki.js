@@ -88,6 +88,7 @@ const Work = () => (
         <WorkImage src="/images/works/menkiki_02.png" alt="menkiki" />
       </SimpleGrid>
     </Container>
+
   </Layout>
 )
 
