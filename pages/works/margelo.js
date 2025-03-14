@@ -4,8 +4,8 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio,
-  Spacer
+  // AspectRatio,
+  // Spacer
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
