@@ -139,10 +139,10 @@ const Home = () => (
       </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Some things I like
+          Things I like
         </Heading>
         <Paragraph>
-          Super Mario Galaxy,{' '}
+          Pokemon,{' '}
           <Link href="https://open.spotify.com/user/rkyuuki?si=a909bcf6a2254750" target="_blank">
             Music
           </Link>

@@ -3,19 +3,11 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-// import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-// import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-// import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbTellTail from '../public/images/works/telltail_logo.png'
-// import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-// import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbGojo from '../public/images/works/gojo.jpg'
+import thumbSpider from '../public/images/works/spider_eyecatch.png'
 import thumbShell from '../public/images/works/shell_thumb.png'
-// import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbZool from '../public/images/works/zool.png'
-// import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/pengu.png'
+import thumbPengu from '../public/images/works/pengu.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -31,10 +23,9 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-
         <Section>
-          <WorkGridItem id="meniki" title="Placeholder" thumbnail={thumbGojo}>
-            This is a placeholder!
+          <WorkGridItem id="menkiki" title="Spider Simulator" thumbnail={thumbSpider}>
+            A cool spider simulation game written in C++
           </WorkGridItem>
         </Section>
 
@@ -132,7 +123,7 @@ const Works = () => (
         </Section>
 
         <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="RK Address Book">
+          <WorkGridItem id="amembo" thumbnail={thumbPengu} title="RK Address Book">
             A lightwight Java-based address book that supports save states.
           </WorkGridItem>
         </Section>

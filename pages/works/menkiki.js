@@ -6,7 +6,7 @@ import {
   List,
   ListItem,
   SimpleGrid,
-  UnorderedList,
+  AspectRatio,
   Image
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
@@ -18,74 +18,48 @@ const Work = () => (
   <Layout title="Menkiki (麺利き)">
     <Container>
       <Title>
-        Menkiki (麺利き) <Badge>2015</Badge>
+        Spider Simulator! <Badge>2024</Badge>
       </Title>
       <P>
-        Menkiki suggests ramen(Chinese noodle) shops based on a photo of ramen
-        you want to eat. Why? Because you don&apos;t need to input Japanese
-        keywords to find restaurants, but just specify a ramen photo then it
-        will suggest great shops for you. It supports 900+ famous ramen shops in
-        Japan!
+        For my computer graphics class, I was tasked with making
+        anything I wanted. So, I decided to make a spider simulator!
+        This spider is animated and rendered using OpenGL. The spider
+        can climb on walls, strafe in any direction, and shoot lazers.
+        I decided to prioritize functionality over realism, as a realistic
+        spider would implicate model rigging; I just wanted this to be a fun
+        and inviting tech demo.
       </P>
-      <P>
-        So, you can check a shop info as soon as you found a promising ramen
-        shop in a food magazine. Let&apos;s go out and have a delicious ramen!
-      </P>
-      <UnorderedList my={4}>
-        <ListItem>Ramen shop recommendation based on photo</ListItem>
-        <ListItem>Show shops near your current location</ListItem>
-        <ListItem>Open in Tabelog/Foursquare</ListItem>
-      </UnorderedList>
-
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>iOS</span>
+          <span>MacOS</span>
+        </ListItem>
+
+        <ListItem>
+          <Meta>Source</Meta>
+          <span>Currently close-source but I will be releasing the source soon!</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Objective-C++, Swift, BLVC CaffeNet Model</span>
+          <span>C++, OpenGL</span>
         </ListItem>
         <ListItem>
-          <Meta>Presentation</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/the-fun-deep-learning">
-            The fun Deep Learning <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Presentation</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/caffedeoshou-qing-ben-ge-deipuraninguiosapuri">
-            Caffeでお手軽本格ディープラーニングアプリ @potatotips{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Source</Meta>
-          <Link href="https://github.com/craftzdog/caffe-ios-sample">
-            github.com/craftzdog/caffe-ios-sample <ExternalLinkIcon mx="2px" />
-          </Link>
+          <Meta>Video</Meta>
+          <AspectRatio maxW="640px" ratio={1.7} my={4}>
+            <iframe
+              src="https://www.youtube.com/embed/UUA-Jsz82HY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </AspectRatio>
         </ListItem>
       </List>
 
-      <Box align="center" my={6}>
-        <Link
-          className="link-appstore"
-          href="https://itunes.apple.com/app/id1035645520?mt=8"
-          target="_blank"
-        >
-          <Image
-            maxW={240}
-            src="/images/works/appstore.png"
-            className="image-appstore"
-            alt="Download on App Store"
-          />
-        </Link>
-      </Box>
-
-      <WorkImage src="/images/works/menkiki_eyecatch.png" alt="menkiki" />
+      <WorkImage src="/images/works/spider_eyecatch.png" alt="menkiki" />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/menkiki_01.png" alt="menkiki" />
-        <WorkImage src="/images/works/menkiki_02.png" alt="menkiki" />
+        <WorkImage src="/images/works/spider_lazer.png" alt="menkiki" />
+        <WorkImage src="/images/works/spider_wall.png" alt="menkiki" />
       </SimpleGrid>
     </Container>
 
