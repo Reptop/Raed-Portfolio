@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="Realistic Fire Shader with Particle & Wind Effects">
     <Container>
       <Title>
-        Fire Shader with Particle Effects & Wind Particles <Badge>2025</Badge>
+        Fire Shader with Particle & Wind Effects <Badge>2025</Badge>
       </Title>
       <P>
         For my shaders class, we were tasked with creating a final project that can be anything of our choosing.
