@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
+import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
 import { DogSpinner, DogContainer } from './voxel-dog-loader'
 
 function easeOutCirc(x) {
@@ -18,6 +19,7 @@ const VoxelDog = () => {
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
     const { current: container } = refContainer
+
     if (container && renderer) {
       const scW = container.clientWidth
       const scH = container.clientHeight
@@ -37,6 +39,7 @@ const VoxelDog = () => {
         antialias: true,
         alpha: true
       })
+
       renderer.setPixelRatio(window.devicePixelRatio)
       renderer.setSize(scW, scH)
       renderer.outputEncoding = THREE.sRGBEncoding
@@ -45,6 +48,7 @@ const VoxelDog = () => {
       const scene = new THREE.Scene()
 
       const target = new THREE.Vector3(-0.5, 1.2, 0)
+
       const initialCameraPosition = new THREE.Vector3(
         20 * Math.sin(0.2 * Math.PI),
         10,
@@ -62,6 +66,7 @@ const VoxelDog = () => {
         0.01,
         50000
       )
+
       camera.position.copy(initialCameraPosition)
       camera.lookAt(target)
 
@@ -74,7 +79,7 @@ const VoxelDog = () => {
 
       loadGLTFModel(scene, urlDogGLB, {
         receiveShadow: false,
-        castShadow: false
+        castShadow: true
       }).then(() => {
         animate()
         setLoading(false)
@@ -100,9 +105,10 @@ const VoxelDog = () => {
             p.z * Math.cos(rotSpeed) - p.x * Math.sin(rotSpeed)
 
           camera.lookAt(target)
-        } else {
-          controls.update()
         }
+
+        else
+          controls.update()
 
         renderer.render(scene, camera)
       }

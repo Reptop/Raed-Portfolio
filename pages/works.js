@@ -8,6 +8,7 @@ import thumbSpider from '../public/images/works/spider_eyecatch.png'
 import thumbShell from '../public/images/works/shell_thumb.png'
 import thumbZool from '../public/images/works/zool.png'
 import thumbPengu from '../public/images/works/pengu.png'
+import thumbGojo from '../public/images/works/gojo.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -29,37 +30,37 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
+        <Section>
+          <WorkGridItem
+            id="placeholder"
+            title="This is a placeholder!"
+            thumbnail={thumbGojo}
+          >
+            Music recommendation app for iOS
+          </WorkGridItem>
+        </Section>
+
+
         {
           /*
-          <Section>
+          <Section delay={0.1}>
             <WorkGridItem
-              id="walknote"
-              title="walknote"
-              thumbnail={thumbWalknote}
+              id="fourpainters"
+              title="The four painters"
+              thumbnail={thumbFourPainters}
             >
-              Music recommendation app for iOS
+              A video work generated with deep learning, imitating famous four
+              painters like Van Gogh
             </WorkGridItem>
           </Section>
-
-
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
-          >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
-          </WorkGridItem>
-        </Section>
-
-        */
+          <Section delay={0.1}>
+            <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
+              An app that suggests ramen(noodle) shops based on a given photo of
+              the ramen you want to eat
+            </WorkGridItem>
+          </Section>
+  
+          */
         }
 
       </SimpleGrid>
