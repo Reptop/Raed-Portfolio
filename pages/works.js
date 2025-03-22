@@ -8,7 +8,8 @@ import thumbSpider from '../public/images/works/spider_eyecatch.png'
 import thumbShell from '../public/images/works/shell_thumb.png'
 import thumbZool from '../public/images/works/zool.png'
 import thumbPengu from '../public/images/works/pengu.png'
-import thumbGojo from '../public/images/works/gojo.jpg'
+// import thumbGojo from '../public/images/works/gojo.jpg'
+import thumbGroudon from '../public/images/works/groudon.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -32,11 +33,11 @@ const Works = () => (
 
         <Section>
           <WorkGridItem
-            id="placeholder"
-            title="This is a placeholder!"
-            thumbnail={thumbGojo}
+            id="fourpainters"
+            title="Realistic Fire Shader"
+            thumbnail={thumbGroudon}
           >
-            Music recommendation app for iOS
+            A realistic fire shader written with GLSL
           </WorkGridItem>
         </Section>
 
