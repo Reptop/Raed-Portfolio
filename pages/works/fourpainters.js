@@ -29,6 +29,12 @@ const Work = () => (
           <Meta>Platform</Meta>
           <span>MacOS</span>
         </ListItem>
+
+        <ListItem>
+          <Meta>Source</Meta>
+          <span>Source will be coming soon!</span>
+        </ListItem>
+
         <ListItem>
           <Meta>Stack</Meta>
           <span>C++, GLSL, OpenGL</span>
