@@ -4,10 +4,8 @@ import {
   List,
   AspectRatio,
   ListItem,
-  Heading,
-  Center
 } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+// import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -23,7 +21,7 @@ const Work = () => (
         I am particularly interested in perfecting realism with computer graphics. I love obesessing over small
         details and optimising whatever I can, so I chose to make a realistic fire shader. The creative process
         was really fun; I decided to showcase my project by using a Groudon obj model. For those who
-        don't know, Groudon is a legendary ground type Pokemon. Groudon is mainly known for being associated with
+        don&apos;t know, Groudon is a legendary ground type Pokemon. Groudon is mainly known for being associated with
         fire and lava so I decided to cover him with my fire shader.
       </P>
       <List ml={4} my={4}>
