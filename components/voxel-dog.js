@@ -2,7 +2,6 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
-import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
 import { DogSpinner, DogContainer } from './voxel-dog-loader'
 
 function easeOutCirc(x) {
